@@ -11,6 +11,9 @@ public class MyJDBCDemoCode1 {
     public static void main(String[] args) throws SQLException {
         System.out.println("jdbc hacking started");
         Connection connect = DriverManager.getConnection(DB_URL, DB_USER_NAME, DB_PASSWORD);
-     System.out.println("databse connection is obtained...."); 
+     System.out.println("databse connection is obtained....");
+    
+
 }
-}
+    
+}  
